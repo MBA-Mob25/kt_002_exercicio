@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Banana App</string>
+    <string name="login_title">Faça seu login</string>
+    <string name="login_or">ou faça seu cadastro</string>
+    <string name="login_forget">recuperar senha</string>
+    <string name="login_email_input">E-mail</string>
+    <string name="login_password_input">Senha</string>
+    <string name="login_button">Logar</string>
+
+    <string name="register_name_input">Nome Completo</string>
+    <string name="register_email_input">E-mail</string>
+    <string name="register_password_input">Senha</string>
+    <string name="register_register_button">Cadastrar</string>
+
+    <string name="profile_title">Meus Dados</string>
+    <string name="profile_name">Nome completo</string>
+    <string name="profile_email">Seu e-mail</string>
+    <string name="profile_password">Sua senha</string>
+    <string name="profile_password_change">Alterar senha</string>
+
+</resources>

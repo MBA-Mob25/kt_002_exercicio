@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:id="@+id/titlePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_title"
+        android:padding="20px"/>
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_below="@id/titlePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_name_input" />
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_below="@id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_email_input" />
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_below="@id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_password_input" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_below="@id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_register_button" />
+</RelativeLayout>
